@@ -13,8 +13,10 @@ uppig = on_command("up pig")
 @uppig.handle()
 async def uppig_handle(bot: Bot, event: Event):
     url = re.search(r"https.*term=3",str(event.get_message()))
-    url_str = str(url.group())
-    response = requests.get(url_str)
+    res = str(url.group())
+    if res == "None":
+        uppig.finish()
+    response = requests.get(res)
     image = Image.open(BytesIO(response.content))
     image.save(f"{path}/{datetime.datetime.now().timestamp()}.png")
     await uppig.finish()

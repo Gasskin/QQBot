@@ -262,3 +262,43 @@
 14:46:24.441669 version@stat F·[3 1] S·297KiB[58KiB 238KiB] Sc·[0.75 0.00]
 14:46:24.493393 memdb@flush committed F·1 T·85.7294ms
 14:46:24.493909 journal@remove removed @68
+=============== Aug 19, 2022 (CST) ===============
+15:28:54.727389 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:28:54.733503 version@stat F·[3 1] S·297KiB[58KiB 238KiB] Sc·[0.75 0.00]
+15:28:54.733503 db@open opening
+15:28:54.733503 journal@recovery F·1
+15:28:54.733503 journal@recovery recovering @70
+15:28:55.116517 memdb@flush created L0@72 N·109 S·10KiB "\x00\xb7=M,v2720":"\xfdҩ\xf3,v2763"
+15:28:55.116517 version@stat F·[4 1] S·308KiB[69KiB 238KiB] Sc·[1.00 0.00]
+15:28:55.361775 db@janitor F·8 G·1
+15:28:55.361775 db@janitor removing table-53
+15:28:55.362286 db@open done T·628.7833ms
+15:28:55.362286 table@compaction L0·4 -> L1·1 S·308KiB Q·2781
+15:28:55.459339 table@build created L1@75 N·2774 S·317KiB "\x00*\xb9`,v397":"\xff\xf0{o,v2016"
+15:28:55.459339 version@stat F·[0 1] S·317KiB[0B 317KiB] Sc·[0.00 0.00]
+15:28:55.534946 table@compaction committed F-4 S+9KiB Ke·0 D·0 T·172.6597ms
+15:28:55.534946 table@remove removed @71
+15:28:55.534946 table@remove removed @69
+15:28:55.534946 table@remove removed @67
+15:28:55.534946 table@remove removed @65
+=============== Aug 19, 2022 (CST) ===============
+15:49:51.738625 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:49:51.744724 version@stat F·[0 1] S·317KiB[0B 317KiB] Sc·[0.00 0.00]
+15:49:51.744724 db@open opening
+15:49:51.744724 journal@recovery F·1
+15:49:51.744724 journal@recovery recovering @73
+15:49:51.774794 memdb@flush created L0@76 N·164 S·17KiB "\x00YԔ,v2889":"\xfd<@*,v2846"
+15:49:51.774794 version@stat F·[1 1] S·334KiB[17KiB 317KiB] Sc·[0.25 0.00]
+15:49:53.134644 db@janitor F·5 G·1
+15:49:53.134644 db@janitor removing table-72
+15:49:53.135196 db@open done T·1.3904721s
+16:01:18.960190 memdb@flush N·189 S·31KiB
+16:01:18.997866 memdb@flush created L0@80 N·189 S·20KiB "\x01\x9b\xbe\xa3,v2994":"\xffz5K,v2966"
+16:01:18.997866 version@stat F·[2 1] S·354KiB[37KiB 317KiB] Sc·[0.50 0.00]
+16:01:19.059921 memdb@flush committed F·1 T·99.7312ms
+16:01:19.060215 journal@remove removed @77
+16:12:36.780016 memdb@flush N·187 S·31KiB
+16:12:36.819932 memdb@flush created L0@82 N·187 S·20KiB "\x02\x1f\xa1\xf5,v3321":"\xff\x18ڠ,v3190"
+16:12:36.819932 version@stat F·[3 1] S·375KiB[58KiB 317KiB] Sc·[0.75 0.00]
+16:12:36.892407 memdb@flush committed F·1 T·112.3856ms
+16:12:36.892538 journal@remove removed @79
